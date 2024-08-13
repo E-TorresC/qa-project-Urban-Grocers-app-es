@@ -11,6 +11,7 @@ Erick Torres Cohort 12 - Sprint 07
 - [Estructura del Proyecto](#estructura-del-proyecto)
 - [Ejecución de las Pruebas](#ejecución-de-las-pruebas)
 - [Comandos Útiles](#comandos-útiles)
+- [Comandos para ejecutar pruebas](#comandos-para-ejecutar-pruebas)
 
 ## Requisitos Previos
 
@@ -70,6 +71,14 @@ La estructura básica del proyecto es la siguiente:
 
 ### 5. Comandos Utiles
 1. Instalar pytest:(Commando de terminal) pip install pytest
-2. Instalar request:(Commando de Pycharm) Python Packages/ Buscar 'requests'/ Install 
+2. Instalar request:(Commando de Pycharm) Python Packages/ Buscar 'requests'/ Install
 
-
+### 6. Comandos para ejecutar pruebas 
+- Ejecutar todas las pruebas en el archivo create_kit_name_kit_test.py:
+> pytest create_kit_name_kit_test.py
+- Ejecutar una prueba específica dentro de create_kit_name_kit_test.py:
+> pytest create_kit_name_kit_test.py::test_create_kit_name_0_chars
+- Ejecutar todas las pruebas en el proyecto (si hay múltiples archivos de pruebas):
+> pytest
+- Ejecutar las pruebas con detalles adicionales (verbose mode):
+> pytest -v create_kit_name_kit_test.py
