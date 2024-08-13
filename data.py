@@ -9,14 +9,14 @@ user_body = {
 }
 
 kit_bodies = [
-    {"name": "Mi conjunto"},  # Test case 1
-    {"name": "a"},  # Test case 1
+    {"name": "Mi conjunto"},
+    {"name": "a"},  # Prueba 1
     {"name": "AbcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdAbcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabC"},  # Test case 2
-    {"name": ""},  # Test case 3
+    {"name": ""},  # Prueba 3
     {"name": "AbcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdAbcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcD"},  # Test case 4
-    {"name": "\"№%@\","},  # Test case 5
-    {"name": " A Aaa "},  # Test case 6
-    {"name": "123"},  # Test case 7
-    {},  # Test case 8
+    {"name": "\"№%@\","},  # Prueba 5
+    {"name": " A Aaa "},  # Prueba 6
+    {"name": "123"},  # Prueba 7
+    {},  # Prueba 8 SIN USO
     {"name": 123} # Test case 9
 ]
