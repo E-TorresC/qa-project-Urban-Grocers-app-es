@@ -36,13 +36,13 @@ def test_create_kit_name_511_chars(auth_token):
 def test_create_kit_name_0_chars(auth_token):
     kit_body = data.kit_bodies[3]
     negative_assert_code_400(kit_body, auth_token)
-# Resultado Esperado = 400 Resultado Actual = 201; Se pudo crear un kit nombre con un numero de caracteres menor de lo permitido
+# Resultado Esperado = 400 Resultado Actual = 201; Se pudo crear un kit nombre con un numero de caracteres menor de lo permitido.
 
 #Prueba 4
 def test_create_kit_name_512_chars(auth_token):
     kit_body = get_kit_body("AbcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdAbcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcD")
     negative_assert_code_400(kit_body, auth_token)
-# Resultado Esperado = 400 Resultado Actual = 201; Se pudo crear un kit nombre con un numero de caracteres mayor de lo permitido
+# Resultado Esperado = 400 Resultado Actual = 201; Se pudo crear un kit nombre con un numero de caracteres mayor de lo permitido.
 
 #Prueba 5
 def test_create_kit_name_special_chars(auth_token):
@@ -63,10 +63,10 @@ def test_create_kit_name_with_numbers(auth_token):
 def test_create_kit_no_name(auth_token):
     kit_body = get_kit_body("")
     negative_assert_code_400(kit_body, auth_token)
-# Resultado Esperado = 400 Resultado Actual = 201; Se admitio la solicitud sin un parametro requerido
+# Resultado Esperado = 400 Resultado Actual = 201; Se admitio la solicitud sin un parametro requerido.
 
 #Prueba 9
 def test_create_kit_name_number(auth_token):
     kit_body = data.kit_bodies[9]
     negative_assert_code_400(kit_body, auth_token)
-# Resultado Esperado = 400 Resultado Actual = 201; Se admitio un paramtero en forma de int y no de str
+# Resultado Esperado = 400 Resultado Actual = 201; Se admitio un paramtero en forma de int y no de str.
